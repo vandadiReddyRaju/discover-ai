@@ -1,0 +1,106 @@
+[
+  {
+    "id": "P001",
+    "name": "ZenBook Ultra",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "A high-performance laptop suited for work and content creation. Features a beautiful 4K OLED display. However, it lacks a dedicated GPU so it is not suitable for heavy gaming.",
+    "tags": [
+      "work",
+      "ultrabook",
+      "premium"
+    ],
+    "image": "https://m.media-amazon.com/images/I/71jNbFGAf+L._SL1500_.jpg"
+  },
+  {
+    "id": "P002",
+    "name": "GamerX Pro",
+    "category": "Laptops",
+    "price": 1599.99,
+    "description": "A powerful gaming laptop with an RTX 4070, 144Hz refresh rate, and advanced cooling. Built for AAA gaming. Heavy and thick.",
+    "tags": [
+      "gaming",
+      "performance",
+      "heavy"
+    ],
+    "image": "https://dlcdnwebimgs.asus.com/files/media/71a33ba1-1be2-44c1-9541-70b4c800abf8/v1/images/Strix_G16_KV_16x9_p-2000.webp"
+  },
+  {
+    "id": "P003",
+    "name": "BudgetBook Basics",
+    "category": "Laptops",
+    "price": 349.99,
+    "description": "An entry-level laptop perfect for students, browsing, and basic text editing. Good battery life but very limited storage.",
+    "tags": [
+      "budget",
+      "student",
+      "portable"
+    ],
+    "image": "https://dlcdnwebimgs.asus.com/files/media/E16CF64B-339C-4BE7-A03A-C49389ABCF43/v1/img/gaming/bg-gaming.jpg"
+  },
+  {
+    "id": "P004",
+    "name": "SonicBuds Pro",
+    "category": "Audio",
+    "price": 199.99,
+    "description": "Premium true wireless earbuds with active noise cancellation (ANC) and spatial audio. Great for commutes and loud environments.",
+    "tags": [
+      "audio",
+      "wireless",
+      "noise-canceling"
+    ],
+    "image": "https://dlcdnwebimgs.asus.com/files/media/5e2878d7-7466-4222-9cb7-53e6c0e57781/v1/features/images/large/1x/s1/main.jpg"
+  },
+  {
+    "id": "P005",
+    "name": "BassHead Over-Ear",
+    "category": "Audio",
+    "price": 89.99,
+    "description": "Wired over-ear headphones with boosted bass. Suitable for home listening and budget studio setups.",
+    "tags": [
+      "audio",
+      "wired",
+      "budget"
+    ],
+    "image": "https://m.media-amazon.com/images/I/31CSOOLPVZL._SY300_SX300_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": "P006",
+    "name": "PixelPhone 15",
+    "category": "Smartphones",
+    "price": 799.99,
+    "description": "Latest generation smartphone featuring excellent camera quality and a smooth 120Hz display. Good battery but slow charging.",
+    "tags": [
+      "phone",
+      "camera",
+      "latest"
+    ],
+    "image": "https://m.media-amazon.com/images/I/71vQxVpXaOL._AC_UF350,350_QL80_.jpg"
+  },
+  {
+    "id": "P007",
+    "name": "ValuePhone Lite",
+    "category": "Smartphones",
+    "price": 299.99,
+    "description": "A budget-friendly smartphone with a large battery and basic features. Ideal as a backup phone or for kids.",
+    "tags": [
+      "phone",
+      "budget",
+      "battery"
+    ],
+    "image": "https://m.media-amazon.com/images/I/61vPDPr-RzL._SL1500_.jpg"
+  },
+  {
+    "id": "P008",
+    "name": "ActionCam 360",
+    "category": "Cameras",
+    "price": 399.99,
+    "description": "Waterproof action camera capable of 360-degree recording. Perfect for extreme sports and vlogging.",
+    "tags": [
+      "camera",
+      "sports",
+      "waterproof"
+    ],
+    "image": "https://images.sharepal.in/categories/action-cameras/360-cameras/insta360-x3/insta360-X3-on-rent-sharepal-1.webp"
+  }
+]
