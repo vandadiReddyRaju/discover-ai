@@ -13,6 +13,9 @@ app.use(express.json());
 
 const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
 
+// Trust the Render proxy for secure cookies
+app.set('trust proxy', 1);
+
 // Allow credentials for frontend requests
 app.use(cors({
     origin: CLIENT_URL,
@@ -25,7 +28,11 @@ app.use(
         secret: 'supersecret_discover_ai_key',
         resave: false,
         saveUninitialized: false,
-        cookie: { secure: false, maxAge: 1000 * 60 * 60 * 24 } // 1 day
+        cookie: {
+            secure: process.env.NODE_ENV === 'production' || process.env.BACKEND_URL?.includes('https'),
+            sameSite: process.env.NODE_ENV === 'production' || process.env.BACKEND_URL?.includes('https') ? 'none' : 'lax',
+            maxAge: 1000 * 60 * 60 * 24
+        } // 1 day
     })
 );
 
