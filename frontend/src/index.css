@@ -610,20 +610,20 @@ h1 {
   }
 
   .input-group {
-    flex-direction: column;
-    /* Stack input and button */
+    flex-direction: column !important;
     gap: 0.8rem;
-    width: 100%;
+    width: 100% !important;
   }
 
   .query-input {
-    width: 100%;
+    width: 100% !important;
     padding: 0.8rem 1rem;
     font-size: 1rem;
+    box-sizing: border-box;
   }
 
   .ask-btn {
-    width: 100%;
+    width: 100% !important;
     justify-content: center;
     padding: 0.8rem;
   }
