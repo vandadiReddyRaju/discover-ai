@@ -536,12 +536,13 @@ h1 {
   /* Header & Top Bar - Keep in one row */
   .top-bar {
     display: flex;
-    justify-content: space-between;
-    /* Space out theme toggle and auth */
+    justify-content: flex-end;
+    /* Keep everything aligned to the right */
     align-items: center;
+    gap: 12px;
     width: 100%;
-    margin-bottom: 0.5rem;
-    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
   }
 
   .auth-section {
@@ -579,6 +580,7 @@ h1 {
   .google-icon-btn {
     padding: 4px 8px;
     font-size: 0.9rem;
+    white-space: nowrap;
   }
 
   /* Hero Section */
@@ -595,13 +597,16 @@ h1 {
 
   .subtitle {
     font-size: 0.95rem;
-    padding: 0 1rem;
+    padding: 0;
     line-height: 1.4;
+    text-align: center;
   }
 
   /* Ask Query Input */
   .ask-query-container {
     padding: 1.2rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .input-group {
@@ -633,13 +638,17 @@ h1 {
   .product-card {
     padding: 1.2rem;
     margin: 0;
-    /* Ensure it doesn't push bounds */
     border-radius: 16px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .h-48 {
-    height: 200px;
-    /* Slight height adjust for mobile images */
+    height: auto;
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit: contain;
+    /* Prevents overflow of product image rounded edges */
   }
 
   .product-info h3 {
