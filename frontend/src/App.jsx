@@ -91,7 +91,7 @@ function App() {
         </div>
 
         <header>
-          <h1>Discover.AI</h1>
+          <h1>DiscvrAI</h1>
           <p className="subtitle">Find exactly what you need with magic AI curation</p>
         </header>
 
